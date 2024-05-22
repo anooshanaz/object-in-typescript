@@ -59,3 +59,19 @@ console.log(StudentData)//simply console it
     console.log(`Class: ${StudentData[i].class}`)
     console.log(`Subject: ${StudentData[i].subject}`)
  }
+
+//nested object 
+let car = {
+    name: "corolla",
+    color: "white",
+    model: {
+        model1 : 12,
+        model2 : 34
+    }
+};
+    console.log(car.model.model2)
+
+
+
+
+
